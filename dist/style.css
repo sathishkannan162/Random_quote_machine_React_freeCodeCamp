@@ -15,14 +15,14 @@ h1 {
   position: absolute;
   color: white;
   top: 0%;
-  font-family: "Dancing Script", cursive, sans-serif;
+  font-family: "Comic Sans Ms", sans-serif;
 }
 
 #attribution {
   position: absolute;
   color: white;
   bottom: 0%;
-  font-family: "Dancing Script", cursive, sans-serif;
+  font-family: "Comic Sans Ms", sans-serif;
 }
 #attribution a {
   color: white;
@@ -36,7 +36,7 @@ h1 {
   color: tomato;
   text-align: center;
   font-size: 1.4rem;
-  font-family: "Dancing Script", cursive, sans-serif;
+  font-family: "Comic Sans Ms", sans-serif;
 }
 
 #author {
@@ -81,5 +81,5 @@ button:hover {
   text-align: center;
   position: relative;
   padding: 6px;
-  font-family: "Dancing Script", cursive, sans-serif;
+  font-family: "Comic Sans Ms", sans-serif;
 }

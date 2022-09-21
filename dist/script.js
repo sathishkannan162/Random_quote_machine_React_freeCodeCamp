@@ -86,7 +86,7 @@ const quoteArr = [
 function CardContents(props) {
   return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/
 
-  React.createElement("i", { className: "fa fa-solid fa-quote-left" }), /*#__PURE__*/React.createElement("span", null, " "), /*#__PURE__*/
+  React.createElement("i", { className: "fa fa-solid fa-quote-left", id: "quote-left" }), /*#__PURE__*/React.createElement("span", null, " "), /*#__PURE__*/
   React.createElement("span", { id: "text" }, props.quote), /*#__PURE__*/
 
   React.createElement("p", { id: "author" }, props.writer));
@@ -118,7 +118,7 @@ function TumblrShare(props) {
 }
 
 function Developer() {
-  return /*#__PURE__*/React.createElement("p", { id: "developer" }, "by sathish");
+  return /*#__PURE__*/React.createElement("p", { id: "developer" },React.createElement("a", { href: "https://codepen.io/freeCodeCamp/full/qRZeGZ" }, "by sathish"));
 }
 
 let random = Math.floor(Math.random() * 10);
@@ -195,3 +195,6 @@ class App extends React.Component {
 
 
 ReactDOM.render( /*#__PURE__*/React.createElement(App, null), document.getElementById('app-background'));
+
+// add a fade text animation while switching text.
+
